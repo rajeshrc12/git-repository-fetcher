@@ -39,13 +39,15 @@ const GitUserInfo = () => {
     <div className="git_user_info_container">
       <GitUserDetails gituser={userData}/>
       <GitUserRepos gitrepos={repos}/>
+      <div className="page">
       <Pagination 
       current={currentPage}
       total={Math.ceil(userData.public_repos/8)}
       onPageChange={handlePageClick}
       previousLabel="<<"
       nextLabel=">>"
-    />
+      />
+      </div>
     </div>
   )
 }
