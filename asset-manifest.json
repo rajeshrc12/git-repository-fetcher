@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/git-repository-fetcher/static/css/main.15064561.css",
+    "main.js": "/git-repository-fetcher/static/js/main.1f0f6b20.js",
+    "index.html": "/git-repository-fetcher/index.html",
+    "main.15064561.css.map": "/git-repository-fetcher/static/css/main.15064561.css.map",
+    "main.1f0f6b20.js.map": "/git-repository-fetcher/static/js/main.1f0f6b20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15064561.css",
+    "static/js/main.1f0f6b20.js"
+  ]
+}
