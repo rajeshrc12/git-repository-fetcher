@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/git-repository-fetcher/static/css/main.15064561.css",
-    "main.js": "/git-repository-fetcher/static/js/main.9cb0a08b.js",
+    "main.js": "/git-repository-fetcher/static/js/main.b29528ab.js",
     "index.html": "/git-repository-fetcher/index.html",
     "main.15064561.css.map": "/git-repository-fetcher/static/css/main.15064561.css.map",
-    "main.9cb0a08b.js.map": "/git-repository-fetcher/static/js/main.9cb0a08b.js.map"
+    "main.b29528ab.js.map": "/git-repository-fetcher/static/js/main.b29528ab.js.map"
   },
   "entrypoints": [
     "static/css/main.15064561.css",
-    "static/js/main.9cb0a08b.js"
+    "static/js/main.b29528ab.js"
   ]
 }
