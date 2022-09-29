@@ -1,0 +1,45 @@
+.git_user_details_container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+.git_user_fullname{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.git_user_otherdata{
+    margin: .5rem 1rem 0 1rem;
+}
+.git_user_image{
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin: .5rem 0 .5rem 0;
+    width: 7rem;
+    border-radius: 100%;
+}
+@media screen and (max-width:664px) {
+    .git_user_details_container{
+        grid-template-columns: 30% 70%;
+    }
+}
+@media screen and (max-width:510px) {
+    .git_user_details_container{
+        grid-template-columns: 1fr;
+    }
+    .git_user_image{
+        border:none;
+        align-items: center;
+        border-bottom: 1px solid gray;
+    }
+    img{
+        height: 10rem;
+        width: 10rem;
+        margin:.5rem 0 0 0;
+    }
+}
